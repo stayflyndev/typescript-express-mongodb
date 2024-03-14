@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "outDir": "./dist",
+      "target": "ES2018",
+      "lib": ["ES2018", "DOM"],
+      "sourceMap": true,
+      "strict": true
+    },
+    "include": [
+      "backend/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
